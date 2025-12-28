@@ -17,7 +17,7 @@
 - **Ant Design** - Beautiful UI components
 - **Hugging Face Inference API** - Free AI models for intelligent food recommendations
 - **TypeScript** - Type-safe code
-- **Vercel** - Deployment platform
+- **GitHub Pages** - Free hosting platform
 
 ## Getting Started
 
@@ -48,8 +48,29 @@ npm run dev
 
 That's it! No API keys or configuration needed. 🎉
 
-## Deployment to Vercel
+## Deployment to GitHub Pages
 
+### Automatic Deployment (Recommended)
+
+1. Push your code to GitHub
+2. Go to your repository **Settings** → **Pages**
+3. Under **Source**, select **GitHub Actions**
+4. Push to the `main` branch - GitHub Actions will automatically build and deploy your site
+5. Your site will be available at `https://<your-username>.github.io/<repository-name>/`
+
+### Manual Deployment
+
+1. Build the static site:
+```bash
+npm run build
+```
+
+2. The `out` folder contains your static site
+3. Push the `out` folder contents to the `gh-pages` branch, or use GitHub Pages settings
+
+### Alternative: Deploy to Vercel
+
+If you prefer Vercel:
 1. Push your code to GitHub
 2. Import your repository in [Vercel](https://vercel.com)
 3. Deploy!
