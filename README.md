@@ -1,2 +1,82 @@
-# MoodBite
-Mood-Driven Food Agent
+# MoodBite 🍛
+
+**Mood-Driven Food Agent** - Get personalized food recommendations based on your mood, time, and energy level.
+
+## Features
+
+- 🎭 **Mood Analysis** - Describe how you're feeling or your situation
+- ⏰ **Time-Aware** - Recommendations based on time of day
+- ⚡ **Energy Level** - Considers your current energy level
+- 🥗 **Dietary Preferences** - Supports vegetarian, vegan, and cultural preferences
+- 💾 **Memory** - Remembers your preferences for better recommendations
+- 🤖 **AI-Powered** - Uses Hugging Face AI models (completely free, no API key needed!)
+
+## Tech Stack
+
+- **Next.js 14** - React framework with App Router
+- **Ant Design** - Beautiful UI components
+- **Hugging Face Inference API** - Free AI models for intelligent food recommendations
+- **TypeScript** - Type-safe code
+- **Vercel** - Deployment platform
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ installed
+- **No API keys required!** This app uses free Hugging Face models.
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <your-repo-url>
+cd MoodBite
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run the development server:
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+That's it! No API keys or configuration needed. 🎉
+
+## Deployment to Vercel
+
+1. Push your code to GitHub
+2. Import your repository in [Vercel](https://vercel.com)
+3. Deploy!
+
+Vercel will automatically detect Next.js and configure everything for you. No environment variables needed!
+
+## Usage
+
+1. Enter your mood or situation (e.g., "It's 9pm, I'm homesick and tired")
+2. Optionally select time of day, energy level, and dietary preferences
+3. Click "Get Food Recommendation"
+4. The AI will analyze your mood and suggest the perfect meal with:
+   - Food category (comfort, light, indulgent, etc.)
+   - Specific dish recommendation
+   - Reason why it fits your mood
+   - Quick recipe or ordering suggestion
+
+## Example
+
+**Input:** "It's 9pm, I'm homesick and tired"
+
+**Output:**
+- **Category:** Comfort
+- **Dish:** Upma or Dal-Rice
+- **Reason:** "You want something familiar and warm. This will calm you down without draining energy."
+- **Ordering:** "Order from your favorite South Indian restaurant or make a quick dal-rice at home."
+
+## License
+
+MIT
