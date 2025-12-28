@@ -2,6 +2,12 @@
 
 **Mood-Driven Food Agent** - Get personalized food recommendations based on your mood, time, and energy level.
 
+<img width="1181" height="771" alt="image" src="https://github.com/user-attachments/assets/0bd867b6-b03a-4c17-8c62-23b886e2c303" />
+
+<img width="1183" height="881" alt="image" src="https://github.com/user-attachments/assets/fa6aeb81-a1f2-40c4-994e-1d3862618d79" />
+
+
+
 ## Features
 
 - 🎭 **Mood Analysis** - Describe how you're feeling or your situation
