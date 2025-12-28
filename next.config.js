@@ -5,9 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // If deploying to GitHub Pages with a custom domain or subpath
-  // basePath: '/MoodBite', // Uncomment and set to your repo name if needed
-  // assetPrefix: '/MoodBite', // Uncomment and set to your repo name if needed
+  // GitHub Pages subpath configuration
+  basePath: '/MoodBite',
+  assetPrefix: '/MoodBite',
 }
 
 module.exports = nextConfig
