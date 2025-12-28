@@ -135,7 +135,7 @@ export default function Home() {
                 style={{ marginTop: '8px' }}
               />
               <Text type="secondary" style={{ fontSize: '12px', display: 'block', marginTop: '4px' }}>
-                Describe your mood, situation, or what you're craving
+                Describe your mood, situation, or what you&apos;re craving
               </Text>
             </div>
 
